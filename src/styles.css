@@ -334,21 +334,21 @@
     width: 350px;
     height: 200px;
     padding: 24px;
-    background: #FEF5E9;
+    background: #ffdfb2;
     border-radius: 24px;
   }
   .service__cardTwo{
     width: 350px;
     height: 200px;
     padding: 24px;
-    background: #E9FBF9;
+    background: #bcfff8;
     border-radius: 24px;
   }
   .service__cardThree{
     width: 350px;
     height: 200px;
     padding: 24px;
-    background: #F7EAFC;
+    background: #F1cdff;
     border-radius: 24px;
   }
   .service__title{
@@ -358,11 +358,12 @@
   }
   .section__text{
     line-height: 150%;
-    font-size: 16px;
+    font-size: 15px;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    color: var(--black);
+    /* color: var(--black); */
+    color: #100228;
     font-family: "Manrope", sans-serif;
   }
   .card__container{
@@ -383,6 +384,10 @@
     align-items: center;
     justify-content: center;
     gap: 12px;
+  }
+  .icon{
+    width: 42px;
+    height: 42px;
   }
 
   /* Why choose section */
