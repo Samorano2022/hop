@@ -1,0 +1,49 @@
+.marquee-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100vw;
+    overflow: hidden !important;
+    height: 100%;
+    background: #121316;
+    padding: 80px 0;
+  }
+
+  .card {
+    border-radius: 0.75rem;
+    border: 1px solid var(--text-color);
+    padding: 2rem;
+    background: #191a1d;
+    height: 250px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    justify-content: center;
+    border: 1px solid #2f2f31;
+  }
+
+  .marquee-gradient {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 33%;
+
+    &.left {
+      left: 0;
+      background-image: linear-gradient(
+        to right,
+        var(--surface-background),
+        transparent
+      );
+    }
+
+    &.right {
+      right: 0;
+      background-image: linear-gradient(
+        to left,
+        var(--surface-background),
+        transparent
+      );
+    }
+  }

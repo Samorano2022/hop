@@ -1,0 +1,27 @@
+.larger__text{
+  font-size: 70px;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 85%;
+  text-align: left;
+}
+
+.head__one{
+  font-size: 16px;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 165%;
+  color: #555;
+  font-family: "Manrope", sans-serif;
+}
+span{
+  color: var(--blue);
+}
+/* .service__cardTwo, .service__cardThree, .service__card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
