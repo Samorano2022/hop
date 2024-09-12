@@ -852,7 +852,12 @@ li{
     .hero{
       height: 100%;
     }
-
+    .hero__btn{
+      padding: 16px 32px;
+      background: var(--blue);
+      border-radius: 100px;
+      color: white;
+    }
       .larger__text {
         font-size: 54px;
         font-optical-sizing: auto;
@@ -1018,6 +1023,12 @@ li{
     }
     .logo__mob{
       width: 84px;
+    }
+    .hero__btn{
+      padding: 16px 32px;
+      background: var(--blue);
+      border-radius: 100px;
+      color: white;
     }
     .header__desktop{
       display: none;
@@ -1249,6 +1260,12 @@ h3 {
     }
     .hero{
       height: 100%;
+    }
+    .hero__btn{
+      padding: 16px 32px;
+      background: var(--blue);
+      border-radius: 100px;
+      color: white;
     }
     .hero__main{
       display: flex;
