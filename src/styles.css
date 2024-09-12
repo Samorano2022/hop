@@ -1016,6 +1016,9 @@ li{
       justify-content: space-between;
       gap: 50px;
     }
+    .logo__mob{
+      width: 84px;
+    }
     .header__desktop{
       display: none;
     }
@@ -1235,7 +1238,6 @@ h3 {
   font-weight: 600;
   padding-left: 15px;
 }
-
   }
 
 @media only screen 
@@ -1271,16 +1273,7 @@ h3 {
       right: 10px;
     }
 
-    /* .larger__text {
-      font-size: 42px;
-      font-optical-sizing: auto;
-      font-weight: 700;
-      font-style: normal;
-      line-height: 92%;
-      text-align: left;
-  } */
     .hero__right {
-      /* background: url(./media/image.png); */
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
